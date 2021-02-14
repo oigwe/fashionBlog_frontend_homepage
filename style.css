@@ -1,0 +1,100 @@
+body {
+    font-family: 'News Cycle', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+a:hover {
+    font-size: medium;
+    text-decoration: underline;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.blog-header-logo {
+    font-size: 50px;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Old Standard TT', serif;
+}
+
+.italic-heading {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+}
+
+.tagline {
+    color: black;
+    font-weight: 800;
+    font-family: 'News Cycle';
+    text-decoration: none;
+    letter-spacing: .25px;
+    vertical-align: super;
+    font-size: medium;
+    
+}
+
+
+.caption {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 3%;
+
+}
+
+.img-holder {
+    background-color: black;
+}
+
+.img-main {
+    min-height: 100%;
+    width: auto;
+}
+
+
+.post {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(1);
+
+}
+
+.post-1 {
+    background-image: url("media/images/compressed/pexels-muchosol-5558228.jpg");
+
+}
+
+
+
+.post-2 {
+    background-image: url("media/images/pexels-yogendra-singh-5185596.jpg");
+}
+
+.post-3 {
+    background-image: url("media/images/pexels-nothing-ahead-3414471.jpg");
+}
+
+
+
+.post-4 {
+    background-image: url("media/images/pexels-godisable-jacob-907685.jpg");
+
+}
+.post-5 {
+    background-image: url("media/images/pexels-godisable-jacob-1377452.jpg");
+
+}
+
+.post-1:hover, .post-2:hover, .post-3:hover, .post-4:hover, .post-5:hover{
+    filter: grayscale(0);
+
+}
