@@ -9,4 +9,5 @@ Use your new HTML knowledge to create the underlying structure of the blog. Make
 HTML, CSS
 
 ---
----
+![Blog Example](./media/blog.png)
+
