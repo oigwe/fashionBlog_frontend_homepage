@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.80.0">
+  <title>theBLOG: The Destination for Fashion News</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link href="media/favicon.ico" rel="icon" type="image/x-icon" />
+  <meta name="theme-color" content="#7952b3">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900&amp;display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center">
+        <div class="col-3 pt-1">
+        </div>
+        <div class="col-6 text-center">
+          <a class="blog-header-logo text-dark" href="#">theBLOG: </a>
+          <a class="tagline text-dark" href="/index.html">static frontend homepage</a>
+        </div>
+        <div class="col-3 d-flex justify-content-end align-items-center">
+          <a class="link-secondary" href="/index.html" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img"
+              viewBox="0 0 24 24">
+              <title>Search</title>
+              <circle cx="10.5" cy="10.5" r="7.5"></circle>
+              <path d="M21 21l-5.2-5.2"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="text-center tagline">
+        </div>
+      </div>
+    </header>
+
+    <div class="nav-scroller py-2 mb-2">
+      <nav class="nav d-flex justify-content-evenly">
+        <a class="p-2 link-secondary" href="#">International</a>
+        <a class="p-2 link-secondary" href="#">U.S.</a>
+        <a class="p-2 link-secondary" href="#">Design</a>
+        <a class="p-2 link-secondary" href="#">Culture</a>
+        <a class="p-2 link-secondary" href="#">Business</a>
+        <a class="p-2 link-secondary" href="#">Travel</a>
+      </nav>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="p-0 p-md-0 mb-4 text-white rounded row bg-black">
+      <div class="col-sm-6 p-5">
+        <h1 class="display-4 fst-italic">An Insider's Guide:</h1>
+        <h2 class="italic-heading">New York Fashion Week</h2>
+        <hr />
+        <p class="text-anchor my-3">NYFW can be both amazingly fun & incredibly overwhelming, especially if you’ve never
+          been.
+          Luckily, I’m here to give you an insider’s guide and make your first show a pleasurable experience. By taking
+          my tips and tricks, and following your gut, you’ll have an unforgettable experience!</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      </div>
+      <div class="col-sm-6 px-0 img-holder">
+        <div class="row h-90">
+          <img class="img-main" src="media/images/compressed/pexels-godisable-jacob-1154861.jpg"
+            alt="Two Fashionable Women Posing in an Alley by Godisable Jacob" />
+        </div>
+        <div class="row caption">
+          <p>Photo by Godisable Jacob from Pexels</p>
+        </div>
+      </div>
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+      <div class="row me-md-3 text-center overflow-hidden rounded bg-black w-50">
+        <div class="col-7 post post-1"></div>
+        <div class="col-5">
+          <div class="row h-50">
+            <div class="text-white shadow-sm mx-auto my-3 rounded w-100 h-100">
+              <div class="text-center align-middle">
+                <h2 class="display-4 fst-italic"><strong>I <br> Am</strong></h2>
+                <h2 class="italic-heading">Elessandra</h2>
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="row h-40">
+            <div class="text-white shadow-sm mx-auto my-3 rounded w-100 h-100" >
+              <div class="text-center align-middle">
+                <p class="text-anchor">Welcome to my blog. Live. Love. Explore the greatest couture collections with me.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row h-10">
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="row me-md-3 text-center overflow-hidden rounded w-50" >
+        <div class="col-5 bg-black">
+          <div class="row" style="height:50%">
+            <div class="text-white shadow-sm mx-auto my-3 rounded w-100 h-100" >
+              <div class="text-center align-middle">
+                <h2 class="display-4 fst-italic"><strong>Getting Tickets</strong></h2>
+                <h2 class="italic-heading">Picking Shows</h2>
+                <hr />
+              </div>
+            </div>
+          </div>
+          <div class="row h-40">
+            <div class="text-white shadow-sm mx-auto my-3 rounded w-100 h-100">
+              <div class="text-center align-middle">
+                <p class="text-anchor">If you’re lucky or connected you can get an invite, sans the price tag. But I
+                  wasn’t so lucky or connected my first 2 years so I’m here to help you out.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row h-10" >
+            <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+          </div>
+        </div>
+        <div class="col-7 post post-2"></div>
+      </div>
+    </div>
+    <!---->
+    <div class="p-0 p-md-0 mb-4 text-white rounded row">
+      <div class="col-sm-2 px-0 img-holder post post-3">
+      </div>
+      <div class="col-sm-2 px-0 img-holder post post-4">
+      </div>
+      <div class="col-sm-2 px-0 img-holder post post-5">
+      </div>
+
+      <div class="col-sm-6 p-5 bg-black">
+        <h1 class="display-4 fst-italic">Multi-Demensional</h1>
+        <h2 class="italic-heading">Street Style</h2>
+        <hr />
+        <p class="text-anchor my-3">Always be true to your own sense of style, if you don’t you’ll be uncomfortable the
+          whole time and it will show. Remember, NYFW is about expressing yourself and taking in what the designers have
+          chosen to express through their new lines. Also it’s important to wear shoes you’ll be comfortable in all day.
+          Obviously you want to look good, but you’ll be on your feet all day long, so be prepared.!</p>
+        <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+      </div>
+    </div>
+
+
+  </main><!-- /.container -->
+
+  <footer class="mt-auto text-white-50 text-center bg-dark">
+    <p> <a href="www.ositaigwe.dev" class="text-white">Created by Osita Igwe - Copyright 2021-2022</a></p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
